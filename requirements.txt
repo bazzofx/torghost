@@ -1,3 +1,11 @@
 stem>=1.7.1
 requests>=2.22.0
 cython
+certifi==2024.8.30
+charset-normalizer==3.4.0
+Cython==3.0.11
+idna==3.10
+packaging==24.2
+requests==2.32.3
+stem==1.8.2
+urllib3==2.2.3
