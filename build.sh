@@ -1,6 +1,7 @@
 echo "Torghost installer v3.0"
 echo "Installing prerequisites "
 sudo apt-get install tor python3-pip -y 
+sudo apt-get install python3-stem # added instead of previously record on requirements stem not working
 echo "Installing dependencies "
 sudo pip3 install -r requirements.txt 
 mkdir build
